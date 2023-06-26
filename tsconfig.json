@@ -20,6 +20,9 @@
       }
     ],
     "paths": {
+      "@graphql/*": ["./src/graphql/*"],
+      "@prisma/*": ["./prisma/*"],
+      "@lib/*": ["./lib/*"],
       "@/*": ["./src/*"]
     }
   },
